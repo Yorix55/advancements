@@ -10,8 +10,10 @@
     "lint": "eslint 'src/**/*.{ts,vue}'"
   },
   "dependencies": {
+    "@types/ssh2-sftp-client": "^9.0.6",
     "@vueuse/core": "^9.4.0",
     "daisyui": "^2.38.1",
+    "ssh2-sftp-client": "^12.1.1",
     "vue": "^3.2.41",
     "vue3-popper": "^1.5.0"
   },

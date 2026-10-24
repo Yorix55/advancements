@@ -8,7 +8,7 @@ const { unfinishedAdvancements, updateAdvancements, advancementsCount } = useAdv
   <Navbar />
   <div class="mx-auto min-w-[320px] max-w-3xl p-5">
     <Upload @update="updateAdvancements" />
-
+    <LinkServer></LinkServer>   
     <h3 v-if="unfinishedAdvancements?.length === 0" class="m-3 text-center text-2xl text-accent">
       All advancements are finished!
     </h3>

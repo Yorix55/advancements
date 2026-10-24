@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     IPhMoon: typeof import('~icons/ph/moon')['default']
     IPhSun: typeof import('~icons/ph/sun')['default']
     IPhUploadSimpleFill: typeof import('~icons/ph/upload-simple-fill')['default']
+    LinkServer: typeof import('./src/components/LinkServer.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     Progress: typeof import('./src/components/Progress.vue')['default']
     Upload: typeof import('./src/components/Upload.vue')['default']
