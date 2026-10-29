@@ -16,4 +16,12 @@ export default defineConfig({
     VueTypeImports(),
   ],
   base: '/advancements/',
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    },
+  },
 })

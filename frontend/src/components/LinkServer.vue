@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { ref } from 'vue'
     import { fetchUserFile } from '../composable/fetch_user_file.js'
-    import { UploadEmit } from '../composable/upload.js'
+    import { UploadEmit } from '../composable/upload'
 
 
     const name = ref('')
